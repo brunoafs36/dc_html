@@ -2,6 +2,37 @@
     <head>
         <title>Meu primeiro HTML</title>
     </head>
+      <style>
+        body {padding-bottom: 350px;
+        
+        
+        }
+
+        #caixa {
+           height: 100px; 
+           width: 100px;   
+           background-color: brown; 
+           border-color: aqua;
+           border-radius: 12px;
+           color: white;
+           /* padding: espaçamento interno */
+           padding: 50px;
+           /* margin: espaçamento externo */
+           margin: 10px;
+
+        
+        }
+        .center {
+            color: blueviolet;
+            text-align: center;
+        
+    }
+
+    td,th {border: 1px solid #000000;
+    }
+        
+        </style>
+        
     <body>
         <h1>Bruno</h1>
 
@@ -22,5 +53,70 @@
         <br>
         <hr>
         <img src="IMG/j1407b.jpg" alt="Planeta Super Saturno" width="300px"/>
+
+        <div id="caixa">
+            <h2>Teste</h2>
+        </div>
+
+       <div class="center">
+        <span>Testando Span centralizado</span>
+        <h3>Testando centralizado</h3>
+       </div>
+
+       <!-- Lista ordenada -->
+       <h2>Comandos básicos Git</h2>
+       <ol>
+        <li>
+            <pre>gitstatus</pre>
+        </li>
+        <li>
+            <pre>git add.</pre>
+        </li>
+        <li>
+            <pre>git status</pre>
+        </li>
+        <li>
+            <pre>git commit -m "Mensagem"</pre>
+        </li>
+
+       </ol>
+       <!-- Lista não ordenada -->
+       <ul>
+        <h4>Pastéis do Excelentíssimo</h4>
+        <li>Pastel de Frango com Catupiry</li> 
+        <li>Coxinha de Frango com Queijo</li>
+        <li>Pastel de Carne com Queijo</li>
+       </ul>
+
+       <!-- Tabela -->
+       <h3>Filmes Favoritos</h3>
+       <table>
+        <!-- 1a linha da tabela são colunas th (table head) -->
+        <tr>
+            <th>Nome</th>
+            <th>Gênero</th>
+            <th>Estrelas</th>
+
+        </tr>
+        <!-- As seguintes linhas são os dados -->
+        <tr>
+            <td>O problema dos 3 corpos</td>
+            <td>Ficção</td>
+            <td>7,7</td>
+
+        </tr>
+        <tr>
+            <td>Matador de aluguel</td>
+            <td>Ação</td>
+            <td>8,2</td>
+
+        </tr>
+        <tr>
+            <td>Duna</td>
+            <td>Ficção</td>
+            <td>9,1</td>
+        </tr>
+
+       </table>
 </body>
 </html>
